@@ -1,0 +1,36 @@
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               Sahil Narula
+tagline:             Developer and Machine Learning Enthusiast from Canada.
+url:                 http://sahanarula.github.io
+paginate:            1
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Sahil Narula
+  url:               https://twitter.com/sahanarula
+  email:             sahiln123@gmail.com
+
+# Custom vars
+version:             2.0.1
+github:
+  repo:              https://github.com/sahanarula/portfolio
+google_analytics:    UA-53013332-3
+twitter:             sahanarula
+github:              sahanarula
+medium:              sahilnarula
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
