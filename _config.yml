@@ -2,9 +2,9 @@
 permalink:           pretty
 
 # Setup
-title:               Jami Gibbs
-tagline:             Developer and Designer from Chicago.
-url:                 http://jamigibbs.com
+title:               Sahil Narula
+tagline:             Developer and Machine Learning Enthusiast from Canada.
+url:                 http://sahanarula.github.io
 paginate:            1
 baseurl:             ""
 
@@ -17,18 +17,18 @@ sass:
 
 # About/contact
 author:
-  name:              Jami Gibbs
-  url:               https://twitter.com/jamigibbs
-  email:             jami0821@gmail.com
+  name:              Sahil Narula
+  url:               https://twitter.com/sahanarula
+  email:             sahiln123@gmail.com
 
 # Custom vars
 version:             2.0.1
 github:
-  repo:              https://github.com/jamigibbs/portfolio
-google_analytics:    UA-3363703-15
-twitter:             jamigibbs
-github:              jamigibbs
-dribbble:            jamigibbs
+  repo:              https://github.com/sahanarula/portfolio
+google_analytics:    UA-53013332-3
+twitter:             sahanarula
+github:              sahanarula
+medium:              sahilnarula
 
 # Gems
 gems:

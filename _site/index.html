@@ -1,7 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 
-{% include head.html %}
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>
+    
+      Sahil Narula &middot; Developer and Machine Learning Enthusiast from Canada.
+    
+  </title>
+
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="shortcut icon" href="/public/favicon.png">
+  <link rel="alternate" type="application/atom+xml" title="Sahil Narula" href="/atom.xml">
+</head>
+
 
 <body>
 
@@ -9,7 +23,7 @@
     <div class="large-12 large-centered columns">
 
       <header class="masthead">
-        <img src="{{ site.baseurl }}/public/profile.jpg" alt="Sahil Narula">
+        <img src="/public/profile.jpg" alt="Sahil Narula">
       </header>
 
     </div>
@@ -45,17 +59,17 @@
     <div class="large-2 large-offset-1 columns social">
       <ul>
         <li>
-          <a href="https://twitter.com/{{ site.twitter }}">
+          <a href="https://twitter.com/sahanarula">
             <i class="fa fa-twitter"></i>
           </a>
         </li>
         <li>
-          <a href="https://github.com/{{ site.github }}">
+          <a href="https://github.com/sahanarula">
             <i class="fa fa-github"></i>
           </a>
         </li>
         <li>
-          <a href="https://medium.com/@{{ site.medium }}">
+          <a href="https://medium.com/@sahilnarula">
             <i class="fa fa-medium"></i>
           </a>
         </li>
@@ -69,7 +83,7 @@
 
   </div>
 
-  {% if site.google_analytics %}
+  
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-53013332-3"></script>
   <script>
@@ -79,7 +93,7 @@
 
     gtag('config', 'UA-53013332-3');
   </script>
-  {% endif %}
+  
 
 
 </body>
